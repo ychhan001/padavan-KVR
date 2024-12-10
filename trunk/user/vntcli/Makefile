@@ -9,5 +9,5 @@ config_test:
 clean:
 
 romfs:
-	$(ROMFSINST) $(THISDIR)/vnt.sh /usr/bin/vnt.sh
+	$(ROMFSINST) -p +x $(THISDIR)/vnt.sh /usr/bin/vnt.sh
 
